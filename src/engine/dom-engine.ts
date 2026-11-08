@@ -39,6 +39,12 @@ const colorProperties: ReadonlyArray<readonly [string, ColorRole]> = [
   ["stroke", "foreground"],
   ["accent-color", "foreground"],
 ];
+const remappedProperties = new Set([
+  ...colorProperties.map(([property]) => property),
+  "background-image",
+  "box-shadow",
+  "text-shadow",
+]);
 
 export function startDomEngine(): void {
   const parse = createColorParser();
@@ -138,17 +144,37 @@ export function startDomEngine(): void {
     return rules.join(";");
   }
 
+  function cancelEngineTransitions(
+    previousAnimations: ReadonlySet<Animation>,
+  ): void {
+    // 自分のシートの切り替えで生じた色の遷移だけを打ち切り、サイトの既存アニメーションは保つ。
+    for (const animation of rootSheets.flatMap(({ root }) =>
+      root.getAnimations(),
+    )) {
+      if (
+        animation instanceof CSSTransition &&
+        !previousAnimations.has(animation) &&
+        remappedProperties.has(animation.transitionProperty)
+      )
+        animation.cancel();
+    }
+  }
+
   function render(): void {
     scheduled = false;
     if (document.hidden) return;
     lastRender = performance.now();
     observer.disconnect();
+    const previousAnimations = new Set(
+      rootSheets.flatMap(({ root }) => root.getAnimations()),
+    );
     // 変換後の色を再入力にしないよう、読み取り中だけ自分のシートを外す。描画前に同じタスク内で戻す。
     for (const { root, sheet } of rootSheets) {
       if (!root.adoptedStyleSheets.includes(sheet))
         root.adoptedStyleSheets = [...root.adoptedStyleSheets, sheet];
       sheet.disabled = true;
     }
+    cancelEngineTransitions(previousAnimations);
     const backgrounds = new WeakMap<Element, Color>();
     const renderedRoots = new Set<StyleRoot>();
     function scan(
@@ -247,6 +273,7 @@ export function startDomEngine(): void {
       }
       return true;
     });
+    cancelEngineTransitions(previousAnimations);
     performance.clearMeasures("dark-engine:render");
     performance.measure("dark-engine:render", {
       start: lastRender,

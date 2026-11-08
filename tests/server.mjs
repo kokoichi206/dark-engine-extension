@@ -45,7 +45,11 @@ const server = createServer(async (req, res) => {
     res.end();
     return;
   }
-  const file = req.url === "/fixture.js" ? "fixture.js" : "page.html";
+  const file = ["/fixture.js", "/transitions.html", "/transitions.js"].includes(
+    req.url,
+  )
+    ? req.url.slice(1)
+    : "page.html";
   const body = await readFile(new URL(`./fixtures/${file}`, import.meta.url));
   res.writeHead(200, {
     "Content-Type": file.endsWith(".js") ? "text/javascript" : "text/html",
