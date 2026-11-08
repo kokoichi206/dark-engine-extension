@@ -62,3 +62,17 @@ test("同色の面の片方だけ変更しても、隣の面と疑似要素の�
       .toEqual(original);
   }
 });
+
+test("色の遷移を中断した後も、追加された面を暗くして読める状態へ戻す", async ({
+  page,
+}) => {
+  await page.goto("http://127.0.0.1:4173/transitions.html");
+  for (const id of ["#light-root", "#shadow-root"]) {
+    const root = page.locator(id);
+    await expectReadableDark(root.locator("#feedback"));
+    await root
+      .getByRole("button", { name: "色の遷移を中断して面を追加" })
+      .click();
+    await expectReadableDark(root.locator("#after-cancel"));
+  }
+});
