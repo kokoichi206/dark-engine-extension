@@ -10,8 +10,12 @@ import {
 import { createColorParser, remapCssColors } from "./css-colors";
 
 type StyleRoot = Document | ShadowRoot;
-type RootSheet = { readonly root: StyleRoot; readonly sheet: CSSStyleSheet };
-const MARKER = "data-dark-engine-node";
+type RootSheet = {
+  readonly root: StyleRoot;
+  readonly sheet: CSSStyleSheet;
+  cssText: string;
+};
+const STYLE_ATTRIBUTE = "data-dark-engine-style";
 const excluded = new Set([
   "SCRIPT",
   "STYLE",
@@ -49,9 +53,7 @@ const remappedProperties = new Set([
 export function startDomEngine(): void {
   const parse = createColorParser();
   let rootSheets: RootSheet[] = [];
-  const nodeIds = new WeakMap<Element, number>();
   const mappedColors = new Map<string, string>();
-  let nextId = 0;
   let scheduled = false;
   let lastRender = 0;
   let stylesheetSignature = "";
@@ -72,7 +74,7 @@ export function startDomEngine(): void {
     const sheet = new CSSStyleSheet();
     sheet.disabled = true;
     root.adoptedStyleSheets = [...root.adoptedStyleSheets, sheet];
-    const entry = { root, sheet };
+    const entry = { root, sheet, cssText: "" };
     rootSheets.push(entry);
     return entry;
   }
@@ -177,11 +179,10 @@ export function startDomEngine(): void {
     cancelEngineTransitions(previousAnimations);
     const backgrounds = new WeakMap<Element, Color>();
     const renderedRoots = new Set<StyleRoot>();
-    function scan(
-      { root, sheet }: RootSheet,
-      inheritedBackground: Color,
-    ): void {
+    function scan(entry: RootSheet, inheritedBackground: Color): void {
+      const { root, sheet } = entry;
       renderedRoots.add(root);
+      const styleGroups = new Map<string, number>();
       const rules: string[] =
         root instanceof Document
           ? [
@@ -214,17 +215,9 @@ export function startDomEngine(): void {
             )
           : parentBackground;
         backgrounds.set(element, background);
-        let id = nodeIds.get(element);
-        if (id === undefined) {
-          id = nextId++;
-          nodeIds.set(element, id);
-        }
-        if (element.getAttribute(MARKER) !== String(id))
-          element.setAttribute(MARKER, String(id));
-        // ID 相当の詳細度で作者の通常ルールを上書きし、元の inline style は変更しない。
-        const selector = `:is(#dark-engine-specificity,[${MARKER}="${id}"])`;
+        const declarationsByPseudo: Array<readonly [string, string]> = [];
         const declaration = declarations(style, background, element);
-        if (declaration) rules.push(`${selector}{${declaration}}`);
+        if (declaration) declarationsByPseudo.push(["", declaration]);
         for (const pseudo of ["::before", "::after", "::placeholder"]) {
           if (
             pseudo === "::placeholder" &&
@@ -247,13 +240,30 @@ export function startDomEngine(): void {
             element,
           );
           if (pseudoDeclaration)
-            rules.push(`${selector}${pseudo}{${pseudoDeclaration}}`);
+            declarationsByPseudo.push([pseudo, pseudoDeclaration]);
         }
+        // 同じ配色のルールを共有し、ブラウザのセレクター照合数を抑える。
+        const styleKey = JSON.stringify(declarationsByPseudo);
+        let id = styleGroups.get(styleKey);
+        if (id === undefined) {
+          id = styleGroups.size;
+          styleGroups.set(styleKey, id);
+          // ID 相当の詳細度で作者の通常ルールを上書きし、元の inline style は変更しない。
+          const selector = `:is(#dark-engine-specificity,[${STYLE_ATTRIBUTE}="${id}"])`;
+          for (const [pseudo, declaration] of declarationsByPseudo)
+            rules.push(`${selector}${pseudo}{${declaration}}`);
+        }
+        if (element.getAttribute(STYLE_ATTRIBUTE) !== String(id))
+          element.setAttribute(STYLE_ATTRIBUTE, String(id));
         if (element.shadowRoot) {
           scan(addRoot(element.shadowRoot), background);
         }
       }
-      sheet.replaceSync(rules.join("\n"));
+      const cssText = rules.join("\n");
+      if (cssText !== entry.cssText) {
+        sheet.replaceSync(cssText);
+        entry.cssText = cssText;
+      }
     }
     scan(addRoot(document), palette.background);
     rootSheets = rootSheets.filter((entry) => {

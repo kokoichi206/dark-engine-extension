@@ -10,7 +10,12 @@ const output = resolve(
     .find((argument) => argument.startsWith("--output="))
     ?.slice("--output=".length) ?? "test-results/performance",
 );
-const extensionPath = resolve("dist");
+const projectRoot = resolve(
+  process.argv
+    .find((argument) => argument.startsWith("--project="))
+    ?.slice("--project=".length) ?? ".",
+);
+const extensionPath = resolve(projectRoot, "dist");
 const quick = process.argv.includes("--quick");
 const live = process.argv.includes("--live");
 const serveOnly = process.argv.includes("--serve");
@@ -57,7 +62,7 @@ for (const path of [
   "dist/sheets.js",
 ])
   hashes[path] = createHash("sha256")
-    .update(await readFile(path))
+    .update(await readFile(resolve(projectRoot, path)))
     .digest("hex");
 const reportFile = resolve(
   output,
@@ -75,6 +80,7 @@ const report = {
   architecture: process.arch,
   node: process.version,
   headless: true,
+  projectRoot,
   hashes,
   notes: [
     "一時プロファイル、測定は直列。ブラウザの可視状態を確認。",
