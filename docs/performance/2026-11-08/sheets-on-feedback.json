@@ -1,0 +1,882 @@
+{
+  "date": "2026-11-08T04:15:30.768Z",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "node": "v24.22.1",
+  "headless": true,
+  "hashes": {
+    "src/engine/dom-engine.ts": "cf7503256235cfbe86d064043395c5a9be59b7a77fdf5f83dbe7f129f4e4bec5",
+    "src/engine/sheets-canvas.ts": "100890cf2dc2be3c17659e014ac2679b9fad749acf5f953b0901497395da6626",
+    "dist/content.js": "88ed0588ee36d2405b0c9151315d59a580385ac709b19076fbd5014110ccadf7",
+    "dist/sheets.js": "b6e5e6428b72e3987bb0b9f7d8602087ac5a9aec777878d1b971f708fe41289a"
+  },
+  "notes": [
+    "一時プロファイル、測定は直列。ブラウザの可視状態を確認。",
+    "TaskDuration は DevTools のメインスレッド・タスク時間。PC 全体の CPU 使用率ではない。",
+    "INP そのものではなく、同一操作列の時間・フレーム間隔・Long Task を測定。"
+  ],
+  "trials": [],
+  "browser": "158.0.8127.18",
+  "mode": "on",
+  "site": "sheets",
+  "url": "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit",
+  "baseline": {
+    "name": "baseline",
+    "elapsedMs": 5017.4000000059605,
+    "operationMs": 5001.213750000003,
+    "mainThreadMs": 753.4100000000001,
+    "scriptMs": 314.9360000000001,
+    "layoutMs": 1.8789999999999987,
+    "styleMs": 331.9920000000001,
+    "render": {
+      "count": 31,
+      "sum": 331.30000004172325,
+      "median": 11.200000017881393,
+      "p95": 13.799999982118607,
+      "max": 16.5
+    },
+    "longTasks": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "frames": {
+      "count": 301,
+      "sum": 5016.3,
+      "median": 16.69999999999891,
+      "p95": 16.799999999999272,
+      "max": 16.80000000000109
+    },
+    "timerDelay": {
+      "count": 100,
+      "sum": 166.59999999403954,
+      "median": 0.09999999403953552,
+      "p95": 13.599999994039536,
+      "max": 19.299999982118607
+    },
+    "eventDelay": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "eventDurations": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "heapBytes": 105805188
+  },
+  "invalidations": [
+    {
+      "at": 6806.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 6978.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 7145.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 7313.600000023842,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 7477.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 7649.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 7793,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 7958.200000017881,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 8109.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 8277.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 8442.600000023842,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 8609.200000017881,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 8784.40000000596,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 8940.200000017881,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 9108.600000023842,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 9277.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 9437.200000017881,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 9589.700000017881,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 9756.100000023842,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 9929,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 10092.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 10261,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 10424.100000023842,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 10593.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 10760.200000017881,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 10935.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 11089.40000000596,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 11261.100000023842,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 11427.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 11593.700000017881,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    },
+    {
+      "at": 11760.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "DIV",
+      "id": "docs-menubars",
+      "className": "docs-menubars",
+      "pseudo": ""
+    }
+  ],
+  "withTransitionEndBlocked": {
+    "name": "transitionend-blocked",
+    "elapsedMs": 4005.300000011921,
+    "operationMs": 4000.569749999995,
+    "mainThreadMs": 196.2630000000001,
+    "scriptMs": 117.37100000000011,
+    "layoutMs": 0.9419999999999984,
+    "styleMs": 19.137999999999877,
+    "render": {
+      "count": 2,
+      "sum": 15.599999994039536,
+      "median": 9.099999994039536,
+      "p95": 9.099999994039536,
+      "max": 9.099999994039536
+    },
+    "longTasks": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "frames": {
+      "count": 239,
+      "sum": 3999.9000000000015,
+      "median": 16.69999999999891,
+      "p95": 16.700000000000728,
+      "max": 33.399999999999636
+    },
+    "timerDelay": {
+      "count": 80,
+      "sum": 39.40000003576279,
+      "median": 0,
+      "p95": 1.199999988079071,
+      "max": 12
+    },
+    "eventDelay": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "eventDurations": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "heapBytes": 91899884
+  },
+  "blockedTransitions": 2,
+  "remainingInvalidations": [
+    {
+      "at": 15465.200000017881,
+      "type": "attributes",
+      "attribute": "data-sessionid",
+      "target": "DIV",
+      "id": ":77",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15465.200000017881,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active docs-presence-plus-collab-widget-exit-material"
+    },
+    {
+      "at": 15465.200000017881,
+      "type": "attributes",
+      "attribute": "data-sessionid",
+      "target": "DIV",
+      "id": ":79",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15465.200000017881,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active docs-presence-plus-collab-widget-exit-material"
+    },
+    {
+      "at": 15465.200000017881,
+      "type": "childList",
+      "attribute": null,
+      "target": "DIV",
+      "id": "goog-lr-39",
+      "className": null
+    },
+    {
+      "at": 15667.90000000596,
+      "type": "childList",
+      "attribute": null,
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-widget-overflow-menu-content"
+    },
+    {
+      "at": 15667.90000000596,
+      "type": "childList",
+      "attribute": null,
+      "target": "DIV",
+      "id": ":6s",
+      "className": "goog-menuheader goog-menuheader-disabled"
+    },
+    {
+      "at": 15668,
+      "type": "childList",
+      "attribute": null,
+      "target": "DIV",
+      "id": ":6s",
+      "className": "goog-menuheader goog-menuheader-disabled"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "data-tooltip",
+      "target": "DIV",
+      "id": "",
+      "className": "goog-inline-block goog-flat-menu-button docs-presence-plus-widget-overflow-button"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "data-tooltip",
+      "target": "DIV",
+      "id": "",
+      "className": "goog-inline-block goog-flat-menu-button docs-presence-plus-widget-overflow-button"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": "",
+      "className": "goog-inline-block goog-flat-menu-button docs-presence-plus-widget-overflow-button"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": "",
+      "className": "goog-inline-block goog-flat-menu-button docs-presence-plus-widget-overflow-button"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":6v",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":6x",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":6x",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":6x",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":6y",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":70",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":70",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":70",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":71",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":73",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":73",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":73",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":74",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":76",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":76",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":76",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":7a",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "childList",
+      "attribute": null,
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-widget-collabs goog-inline-block"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":7e",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "aria-label",
+      "target": "DIV",
+      "id": ":7e",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":7e",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": ":7c",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "goog-menu goog-menu-vertical docs-presence-plus-widget-overflow-menu jfk-scrollbar docs-material"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "goog-menu goog-menu-vertical docs-presence-plus-widget-overflow-menu jfk-scrollbar docs-material"
+    },
+    {
+      "at": 15668,
+      "type": "attributes",
+      "attribute": "class",
+      "target": "DIV",
+      "id": "",
+      "className": "goog-menu goog-menu-vertical docs-presence-plus-widget-overflow-menu jfk-scrollbar docs-material"
+    },
+    {
+      "at": 15668.40000000596,
+      "type": "childList",
+      "attribute": null,
+      "target": "DIV",
+      "id": "",
+      "className": "goog-menuitem-content"
+    },
+    {
+      "at": 15668.40000000596,
+      "type": "childList",
+      "attribute": null,
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-widget-overflow-collaborators"
+    },
+    {
+      "at": 15668.5,
+      "type": "childList",
+      "attribute": null,
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-widget-collabs goog-inline-block"
+    },
+    {
+      "at": 15668.5,
+      "type": "load",
+      "target": "IMG",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget-image docsshared-no-select"
+    },
+    {
+      "at": 15684.40000000596,
+      "type": "attributes",
+      "attribute": "data-dark-engine-node",
+      "target": "DIV",
+      "id": ":7e",
+      "className": "docs-presence-plus-collab-widget-container goog-inline-block docs-presence-plus-collab-widget-focus"
+    },
+    {
+      "at": 15684.40000000596,
+      "type": "attributes",
+      "attribute": "data-dark-engine-node",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget docs-presence-plus-collab-widget-active"
+    },
+    {
+      "at": 15684.40000000596,
+      "type": "attributes",
+      "attribute": "data-dark-engine-node",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget-color-block goog-inline-block"
+    },
+    {
+      "at": 15684.40000000596,
+      "type": "attributes",
+      "attribute": "data-dark-engine-node",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget-image-container"
+    },
+    {
+      "at": 15684.40000000596,
+      "type": "attributes",
+      "attribute": "data-dark-engine-node",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget-image-border"
+    },
+    {
+      "at": 15684.40000000596,
+      "type": "attributes",
+      "attribute": "data-dark-engine-node",
+      "target": "IMG",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget-image docsshared-no-select"
+    },
+    {
+      "at": 15684.40000000596,
+      "type": "attributes",
+      "attribute": "data-dark-engine-node",
+      "target": "DIV",
+      "id": "",
+      "className": "docs-presence-plus-collab-widget-name goog-inline-block"
+    }
+  ]
+}

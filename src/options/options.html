@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>除外ドメインの設定 — Dark Engine</title>
+    <link rel="stylesheet" href="options.css" />
+    <script src="options.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <a
+        class="brand"
+        href="https://github.com/kokoichi206/dark-engine-extension"
+        target="_blank"
+        rel="noreferrer"
+        >Dark Engine</a
+      >
+      <h1>除外ドメインの設定</h1>
+      <p class="intro">
+        指定したドメインと、そのサブドメインでダーク表示を無効にします。
+      </p>
+      <section class="example" aria-label="除外範囲の例">
+        <code>example.com</code>
+        <div>
+          <strong>無効になるサイト</strong>
+          <p>example.com、www.example.com、app.example.com など</p>
+          <p>
+            HTTP / HTTPS とすべてのパスが対象です。notexample.com は含みません。
+          </p>
+        </div>
+      </section>
+      <form id="domain-settings">
+        <label for="excluded-domains">除外するドメイン</label>
+        <p id="domain-help" class="help">
+          1 行に 1 件、ドメインだけを入力してください。URL、パス、ポート、*
+          は指定できません。
+        </p>
+        <textarea
+          id="excluded-domains"
+          rows="8"
+          placeholder="example.com&#10;docs.google.com"
+          spellcheck="false"
+          autocapitalize="off"
+          aria-describedby="domain-help domain-error"
+          disabled
+        ></textarea>
+        <p id="domain-error" class="error" role="alert"></p>
+        <div class="actions">
+          <button id="save" type="submit" disabled>設定を保存</button
+          ><span id="domain-count">登録なし</span>
+        </div>
+        <p id="status" role="status" aria-live="polite"></p>
+      </form>
+      <section class="notes">
+        <h2>設定の反映</h2>
+        <p>
+          保存後、対象ページを再読み込みしてください。Google Sheets
+          では、セル内部の色変換も無効になります。
+        </p>
+        <p>
+          除外を解除するときは、その行を削除して保存します。空欄で保存すると、すべての除外を解除します。
+        </p>
+        <p>
+          埋め込みフレームは、それぞれのドメインで判定します。異なるドメインのフレームも除外する場合は、そのドメインを登録してください。
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

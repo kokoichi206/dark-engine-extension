@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-06T12:52:50.604Z",
+  "browser": "158.0.8127.18",
+  "sites": [
+    {
+      "url": "https://github.com/kokoichi206/dark-engine-extension",
+      "excludedDomain": "github.com",
+      "excludedBackground": "rgb(255, 255, 255)",
+      "restoredBackground": "rgb(33, 40, 48)"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit",
+      "excludedDomain": "docs.google.com",
+      "excludedPixel": [255, 255, 255, 255],
+      "restoredPixel": [33, 40, 48, 255]
+    }
+  ],
+  "errors": []
+}
