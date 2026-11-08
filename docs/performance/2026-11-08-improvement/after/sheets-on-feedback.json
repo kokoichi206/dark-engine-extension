@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-08T13:02:27.880Z",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "node": "v24.22.1",
+  "headless": true,
+  "projectRoot": "/Users/kokoichi206/ghq/github.com/kokoichi206/dark-engine-extension",
+  "hashes": {
+    "src/engine/dom-engine.ts": "6ebdd77f144478016948e08c6cf7a80da5225d0a4b050258bc2583be4f020443",
+    "src/engine/sheets-canvas.ts": "100890cf2dc2be3c17659e014ac2679b9fad749acf5f953b0901497395da6626",
+    "dist/content.js": "e91bba5c27511167fc363d214ab9e7df9e533ba3506ffdf217689eb029b119ed",
+    "dist/sheets.js": "b6e5e6428b72e3987bb0b9f7d8602087ac5a9aec777878d1b971f708fe41289a"
+  },
+  "notes": [
+    "一時プロファイル、測定は直列。ブラウザの可視状態を確認。",
+    "TaskDuration は DevTools のメインスレッド・タスク時間。PC 全体の CPU 使用率ではない。",
+    "INP そのものではなく、同一操作列の時間・フレーム間隔・Long Task を測定。"
+  ],
+  "trials": [],
+  "browser": "158.0.8127.18",
+  "mode": "on",
+  "site": "sheets",
+  "url": "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit",
+  "baseline": {
+    "name": "baseline",
+    "elapsedMs": 5004.699999988079,
+    "operationMs": 5001.232541999998,
+    "mainThreadMs": 284.0849999999999,
+    "scriptMs": 198.91900000000007,
+    "layoutMs": 0,
+    "styleMs": 0,
+    "render": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "longTasks": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "frames": {
+      "count": 298,
+      "sum": 4999.800000000001,
+      "median": 16.699999999999818,
+      "p95": 16.799999999999272,
+      "max": 33.399999999999636
+    },
+    "timerDelay": {
+      "count": 100,
+      "sum": 61.59999996423721,
+      "median": 0,
+      "p95": 2.400000035762787,
+      "max": 3.899999976158142
+    },
+    "eventDelay": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "eventDurations": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "heapBytes": 70485828
+  },
+  "invalidations": [],
+  "withTransitionEndBlocked": {
+    "name": "transitionend-blocked",
+    "elapsedMs": 4002.7999999523163,
+    "operationMs": 4001.205667000002,
+    "mainThreadMs": 169.62300000000008,
+    "scriptMs": 131.34400000000014,
+    "layoutMs": 0,
+    "styleMs": 0,
+    "render": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "longTasks": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "frames": {
+      "count": 240,
+      "sum": 3999.800000000001,
+      "median": 16.69999999999891,
+      "p95": 16.700000000000728,
+      "max": 16.80000000000109
+    },
+    "timerDelay": {
+      "count": 80,
+      "sum": 45.40000003576279,
+      "median": 0.10000002384185791,
+      "p95": 2.199999988079071,
+      "max": 3.100000023841858
+    },
+    "eventDelay": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "eventDurations": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "heapBytes": 111743724
+  },
+  "blockedTransitions": 0,
+  "remainingInvalidations": []
+}

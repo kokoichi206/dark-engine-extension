@@ -113,7 +113,6 @@ try {
               color: getComputedStyle(document.body).color,
             },
             elements: document.querySelectorAll("*").length,
-            themed: document.querySelectorAll("[data-dark-engine-node]").length,
             renderDurationMs: performance
               .getEntriesByName("dark-engine:render")
               .at(-1)?.duration,

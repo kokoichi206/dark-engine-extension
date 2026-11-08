@@ -49,6 +49,8 @@ Google Sheets は CSS の変更だけではセル内部の描画を変えられ�
 
 公開の [Google Sheets サンプル](https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit) で、セルの背景ピクセル、文字、選択、スクロール後の再描画を確認しました。閲覧専用のため、実サービスでのセル編集・数式入力・条件付き書式の変更は未確認です。[検証記録](docs/verification/README.md) に、確認した URL、画像、未確認範囲をまとめています。
 
+同じ配色の要素は、疑似要素の色も含めて CSS ルールを共有します。変換結果が前回と同じならシートの内容を置換しません。拡張のシート切り替えで新しく生じた色の CSS トランジションは打ち切って最終色を反映し、再解析の自己ループを防ぎます。サイト本来の色のトランジションが続いている間は、終了またはキャンセルを待ってから再解析します。透明度・位置など配色以外のトランジションは打ち切りの対象外です。
+
 ## 制約
 
 全サイトを対象に動作を試みますが、あらゆる描画方式の完全変換は保証しません。
@@ -76,13 +78,13 @@ pnpm verify:sites        # 公開サイトを実際に開いて検証し、画�
 
 `pnpm test:e2e` は制御した検証ページを使い、実サービスへの書き込みやログインは行いません。Sheets 用のテストは URL をルーティングした検証用 HTML です。`pnpm verify:sites` はこれと別に、本物の公開 Sheets、GitHub、Wikipedia、Example Domain を開きます。いずれも一時プロファイルを使い、普段の Chrome のアカウントや設定には触れません。画面を表示して実行するときは `HEADED=1 pnpm test:e2e` または `HEADED=1 pnpm verify:sites` を使います。
 
-DOM の直近の色変換処理の時間は、対象ページの DevTools コンソールから確認できます。この値には、処理後にブラウザが行うスタイル再計算・描画の時間を含まないため、操作の軽さや全体の負荷を表しません。
+DOM の再解析に入ってからの同期処理時間は、対象ページの DevTools コンソールから確認できます。再解析前のトランジションの完了待ちや、処理後の描画・操作全体の時間は含みません。負荷の評価には、メインスレッドのタスク時間や Long Task も併せて確認します。
 
 ```js
 performance.getEntriesByName("dark-engine:render").at(-1)?.duration;
 ```
 
-[負荷の調査記録](docs/performance/2026-11-08/README.md) に、ON/OFF と未導入の比較方法、測定結果、未確認範囲をまとめています。
+[負荷の調査記録](docs/performance/2026-11-08/README.md) と [改善前後の比較](docs/performance/2026-11-08-improvement/README.md) に、測定結果と未確認範囲をまとめています。
 
 ## 構成
 
