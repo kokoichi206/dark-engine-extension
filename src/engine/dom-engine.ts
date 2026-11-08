@@ -146,37 +146,46 @@ export function startDomEngine(): void {
     return rules.join(";");
   }
 
-  function cancelEngineTransitions(
-    previousAnimations: ReadonlySet<Animation>,
-  ): void {
-    // 自分のシートの切り替えで生じた色の遷移だけを打ち切り、サイトの既存アニメーションは保つ。
-    for (const animation of rootSheets.flatMap(({ root }) =>
-      root.getAnimations(),
-    )) {
-      if (
-        animation instanceof CSSTransition &&
-        !previousAnimations.has(animation) &&
-        remappedProperties.has(animation.transitionProperty)
-      )
-        animation.cancel();
-    }
+  function getColorTransitions(): CSSTransition[] {
+    return rootSheets
+      .flatMap(({ root }) => root.getAnimations())
+      .filter(
+        (animation): animation is CSSTransition =>
+          animation instanceof CSSTransition &&
+          remappedProperties.has(animation.transitionProperty) &&
+          (animation.playState === "running" ||
+            animation.playState === "paused"),
+      );
+  }
+
+  function cancelEngineTransitions(): void {
+    for (const animation of getColorTransitions()) animation.cancel();
   }
 
   function render(): void {
     scheduled = false;
     if (document.hidden) return;
+    const siteTransitions = getColorTransitions();
+    if (siteTransitions.length > 0) {
+      // CSS の一時除去でサイト本来の色の遷移を作り直さないよう、終了かキャンセルを待つ。
+      scheduled = true;
+      void Promise.allSettled(
+        siteTransitions.map((animation) => animation.finished),
+      ).then(() => {
+        scheduled = false;
+        schedule();
+      });
+      return;
+    }
     lastRender = performance.now();
     observer.disconnect();
-    const previousAnimations = new Set(
-      rootSheets.flatMap(({ root }) => root.getAnimations()),
-    );
     // 変換後の色を再入力にしないよう、読み取り中だけ自分のシートを外す。描画前に同じタスク内で戻す。
     for (const { root, sheet } of rootSheets) {
       if (!root.adoptedStyleSheets.includes(sheet))
         root.adoptedStyleSheets = [...root.adoptedStyleSheets, sheet];
       sheet.disabled = true;
     }
-    cancelEngineTransitions(previousAnimations);
+    cancelEngineTransitions();
     const backgrounds = new WeakMap<Element, Color>();
     const renderedRoots = new Set<StyleRoot>();
     function scan(entry: RootSheet, inheritedBackground: Color): void {
@@ -283,7 +292,7 @@ export function startDomEngine(): void {
       }
       return true;
     });
-    cancelEngineTransitions(previousAnimations);
+    cancelEngineTransitions();
     performance.clearMeasures("dark-engine:render");
     performance.measure("dark-engine:render", {
       start: lastRender,

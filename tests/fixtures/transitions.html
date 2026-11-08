@@ -54,6 +54,19 @@
       <div class="surface" id="feedback">トランジションのある面</div>
       <button id="fade">透明度を変える</button>
       <output id="completion">操作待ち</output>
+      <div
+        id="protected"
+        style="
+          background: #18202b !important;
+          color: #c9d1d9 !important;
+          transition: color 350ms linear;
+        "
+      >
+        既存の色の遷移
+      </div>
+      <button id="protected-color">元の文字色を変える</button>
+      <output id="protected-completion">操作待ち</output>
+      <output id="unrelated-update">0</output>
       <div class="surface pair" id="first">先頭の面</div>
       <div class="surface pair" id="second">別の補足色の面</div>
       <div class="surface pair" id="third">先頭と同じ配色の面</div>

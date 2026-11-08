@@ -19,6 +19,13 @@ test("配色の適用で操作完了を誤発火させず、サイト本来の�
     await root.getByRole("button", { name: "透明度を変える" }).click();
     await expect(root.locator("#feedback")).toHaveCSS("opacity", "0.5");
     await expect(root.locator("#completion")).toHaveText("操作完了");
+    await root.getByRole("button", { name: "元の文字色を変える" }).click();
+    await expect(root.locator("#unrelated-update")).toHaveText("1");
+    await expect(root.locator("#protected-completion")).toHaveText("操作完了");
+    await expect(root.locator("#protected")).toHaveCSS(
+      "color",
+      "rgb(255, 204, 68)",
+    );
   }
 });
 
