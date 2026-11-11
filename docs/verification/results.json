@@ -1,0 +1,381 @@
+{
+  "date": "2026-11-08T13:10:48.274Z",
+  "browser": "158.0.8127.18",
+  "results": [
+    {
+      "name": "sheets",
+      "url": "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit",
+      "errors": [],
+      "light": {
+        "title": "Example Spreadsheet - Google スプレッドシート",
+        "url": "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit?gid=0#gid=0",
+        "body": {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(31, 31, 31)"
+        },
+        "elements": 1864,
+        "filters": [
+          "none",
+          "none"
+        ],
+        "canvases": [
+          {
+            "class": "",
+            "width": 1424,
+            "height": 803,
+            "parent": "<div id=\"0-grid-table-container\" style=\"height: auto; width: auto;\"><div class=\"grid-table-container fixed-table-container\" style=\"width: 1424px; height: 65px;\"><div class=\"grid-fixed-wrapper\" id=\"0-fixed\"><div class=\"goog-inline-block fixed4-inner-container\" style=\"width: 46px; height: 65px;\"><div id=\"fixed_left\" class=\"uberlay\" style=\"display: none;\"><div class=\"overlay-container-ltr\" style=\"z-index: 8;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 5;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 7;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 8;\"></div><",
+            "box": {
+              "x": 0,
+              "y": 142.578125,
+              "width": 1424,
+              "height": 803.421875
+            },
+            "samples": [
+              {
+                "x": 10,
+                "y": 10,
+                "color": [
+                  248,
+                  249,
+                  250,
+                  255
+                ]
+              },
+              {
+                "x": 100,
+                "y": 100,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ]
+              },
+              {
+                "x": 200,
+                "y": 100,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ]
+              },
+              {
+                "x": 400,
+                "y": 100,
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ]
+              }
+            ]
+          }
+        ],
+        "httpStatus": 200,
+        "appearance": {
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "foreground": [
+            31,
+            31,
+            31
+          ],
+          "luminance": 1,
+          "contrast": 16.48297747532879
+        }
+      },
+      "dark": {
+        "title": "Example Spreadsheet - Google スプレッドシート",
+        "url": "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit?gid=0#gid=0",
+        "body": {
+          "background": "rgb(33, 40, 48)",
+          "color": "rgb(199, 205, 213)"
+        },
+        "elements": 1864,
+        "renderDurationMs": 14,
+        "filters": [
+          "none",
+          "none"
+        ],
+        "canvases": [
+          {
+            "class": "",
+            "width": 1424,
+            "height": 803,
+            "parent": "<div id=\"0-grid-table-container\" style=\"height: auto; width: auto;\" data-dark-engine-style=\"4\"><div class=\"grid-table-container fixed-table-container\" style=\"width: 1424px; height: 65px;\" data-dark-engine-style=\"4\"><div class=\"grid-fixed-wrapper\" id=\"0-fixed\" data-dark-engine-style=\"4\"><div class=\"goog-inline-block fixed4-inner-container\" style=\"width: 46px; height: 65px;\" data-dark-engine-style=\"4\"><div id=\"fixed_left\" class=\"uberlay\" style=\"display: none;\"><div class=\"overlay-container-ltr\" style=\"z-index: 8;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 5;\"></div><div class=\"ove",
+            "box": {
+              "x": 0,
+              "y": 142.578125,
+              "width": 1424,
+              "height": 803.421875
+            },
+            "samples": [
+              {
+                "x": 10,
+                "y": 10,
+                "color": [
+                  33,
+                  40,
+                  48,
+                  255
+                ]
+              },
+              {
+                "x": 100,
+                "y": 100,
+                "color": [
+                  33,
+                  40,
+                  48,
+                  255
+                ]
+              },
+              {
+                "x": 200,
+                "y": 100,
+                "color": [
+                  33,
+                  40,
+                  48,
+                  255
+                ]
+              },
+              {
+                "x": 400,
+                "y": 100,
+                "color": [
+                  33,
+                  40,
+                  48,
+                  255
+                ]
+              }
+            ]
+          }
+        ],
+        "httpStatus": 200,
+        "appearance": {
+          "background": [
+            33,
+            40,
+            48
+          ],
+          "foreground": [
+            199,
+            205,
+            213
+          ],
+          "luminance": 0.020543169833638776,
+          "contrast": 9.300525273662123
+        }
+      },
+      "interaction": {
+        "selectionBefore": "A2",
+        "selectionAfter": "A3",
+        "canvasBeforeScroll": "1f5e0a2d",
+        "canvasAfterScroll": "94c5069e"
+      },
+      "dom": [
+        "<div id=\"0-grid-table-container\" style=\"height: auto; width: auto;\" data-dark-engine-style=\"4\"><div class=\"grid-table-container fixed-table-container\" style=\"width: 1424px; height: 65px;\" data-dark-engine-style=\"4\"><div class=\"grid-fixed-wrapper\" id=\"0-fixed\" data-dark-engine-style=\"4\"><div class=\"goog-inline-block fixed4-inner-container\" style=\"width: 46px; height: 65px;\" data-dark-engine-style=\"4\"><div id=\"fixed_left\" class=\"uberlay\" style=\"display: none;\"><div class=\"overlay-container-ltr\" style=\"z-index: 8;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 5;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 7;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 8;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 6;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 7;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 7;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 14;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 7;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 14;\"></div><div class=\"overlay-container-ltr\" style=\"z-index: 7;\"></div></div></div><div class=\"goog-inline-block fixed4-inner-container\" style=\"width: 1378px; height: 65px;\" data-dark-engine-style=\"4\"><div class=\"waffle-background-container\" data-dark-engine-style=\"22\">&nbsp;</div><div id=\"fixed_right\" class=\"uberlay\" style=\"left: 0px; display: none;\" data-dark-engine-style=\"4\"><div class=\"overlay-container-ltr\" style=\"z-index: 8;\""
+      ]
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/kokoichi206/dark-engine-extension",
+      "errors": [],
+      "light": {
+        "title": "GitHub - kokoichi206/dark-engine-extension: A CSS-aware dark mode engine packaged as a Chrome extension. Remaps colors dynamically for better results than filter-based approaches. · GitHub",
+        "url": "https://github.com/kokoichi206/dark-engine-extension",
+        "body": {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(31, 35, 40)"
+        },
+        "elements": 1213,
+        "filters": [
+          "none",
+          "none"
+        ],
+        "canvases": [],
+        "httpStatus": 200,
+        "appearance": {
+          "background": [
+            255,
+            255,
+            255
+          ],
+          "foreground": [
+            31,
+            35,
+            40
+          ],
+          "luminance": 1,
+          "contrast": 15.797619425332647
+        }
+      },
+      "dark": {
+        "title": "GitHub - kokoichi206/dark-engine-extension: A CSS-aware dark mode engine packaged as a Chrome extension. Remaps colors dynamically for better results than filter-based approaches. · GitHub",
+        "url": "https://github.com/kokoichi206/dark-engine-extension",
+        "body": {
+          "background": "rgb(33, 40, 48)",
+          "color": "rgb(198, 204, 213)"
+        },
+        "elements": 1213,
+        "renderDurationMs": 38.30000001192093,
+        "filters": [
+          "none",
+          "none"
+        ],
+        "canvases": [],
+        "httpStatus": 200,
+        "appearance": {
+          "background": [
+            33,
+            40,
+            48
+          ],
+          "foreground": [
+            198,
+            204,
+            213
+          ],
+          "luminance": 0.020543169833638776,
+          "contrast": 9.213591384268241
+        }
+      }
+    },
+    {
+      "name": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Color",
+      "errors": [],
+      "light": {
+        "title": "Color - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Color",
+        "body": {
+          "background": "rgb(248, 249, 250)",
+          "color": "rgb(32, 33, 34)"
+        },
+        "elements": 4817,
+        "filters": [
+          "none",
+          "none"
+        ],
+        "canvases": [],
+        "httpStatus": 200,
+        "appearance": {
+          "background": [
+            248,
+            249,
+            250
+          ],
+          "foreground": [
+            32,
+            33,
+            34
+          ],
+          "luminance": 0.9460994970463299,
+          "contrast": 15.300404044861196
+        }
+      },
+      "dark": {
+        "title": "Color - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Color",
+        "body": {
+          "background": "rgb(33, 40, 48)",
+          "color": "rgb(199, 204, 213)"
+        },
+        "elements": 4815,
+        "renderDurationMs": 79.60000002384186,
+        "filters": [
+          "none",
+          "none"
+        ],
+        "canvases": [],
+        "httpStatus": 200,
+        "appearance": {
+          "background": [
+            33,
+            40,
+            48
+          ],
+          "foreground": [
+            199,
+            204,
+            213
+          ],
+          "luminance": 0.020543169833638776,
+          "contrast": 9.232919586198769
+        }
+      }
+    },
+    {
+      "name": "example",
+      "url": "https://example.com/",
+      "errors": [],
+      "light": {
+        "title": "Example Domain",
+        "url": "https://example.com/",
+        "body": {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)"
+        },
+        "elements": 22,
+        "filters": [
+          "none",
+          "none"
+        ],
+        "canvases": [],
+        "httpStatus": 200,
+        "appearance": {
+          "background": [
+            238,
+            238,
+            238
+          ],
+          "foreground": [
+            0,
+            0,
+            0
+          ],
+          "luminance": 0.8549926081242338,
+          "contrast": 18.099852162484677
+        }
+      },
+      "dark": {
+        "title": "Example Domain",
+        "url": "https://example.com/",
+        "body": {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(209, 215, 224)"
+        },
+        "elements": 22,
+        "renderDurationMs": 1.199999988079071,
+        "filters": [
+          "none",
+          "none"
+        ],
+        "canvases": [],
+        "httpStatus": 200,
+        "appearance": {
+          "background": [
+            34,
+            41,
+            49
+          ],
+          "foreground": [
+            209,
+            215,
+            224
+          ],
+          "luminance": 0.021477085011260142,
+          "contrast": 10.148428038262379
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-06T13:13:14.761Z",
+  "baseline": {
+    "unit": "passed",
+    "e2e": "passed"
+  },
+  "sourceHashes": {
+    "src/engine/color.ts": "85582e396786cd76fcb262e66ce8008d0230b3b197cac8c912021012ea731973",
+    "src/settings/domains.ts": "134e9b912fcc6e070e504df418bd145e50c287a8f6d17ce3d1d1c0c1c5a89c4e",
+    "src/engine/dom-engine.ts": "cf7503256235cfbe86d064043395c5a9be59b7a77fdf5f83dbe7f129f4e4bec5",
+    "src/engine/sheets-canvas.ts": "100890cf2dc2be3c17659e014ac2679b9fad749acf5f953b0901497395da6626",
+    "src/options/options.ts": "e647eb08f8424c147894d11cbd2b19ef594c8a06982da3b5e3e2d0b22a699567"
+  },
+  "cases": [
+    {
+      "name": "contrast-always-passes",
+      "kind": "unit",
+      "file": "src/engine/color.ts",
+      "change": {
+        "from": "return (Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05);",
+        "to": "return 21 + 0 * (a + b);"
+      },
+      "detected": true,
+      "failedTests": [
+        "利用者に見える配色の条件 不透明な本文色を、独立した WCAG の判定で 4.5:1 以上にする"
+      ]
+    },
+    {
+      "name": "domain-suffix-without-boundary",
+      "kind": "unit",
+      "file": "src/settings/domains.ts",
+      "change": {
+        "from": "host.endsWith(`.${domain}`)",
+        "to": "host.endsWith(domain)"
+      },
+      "detected": true,
+      "failedTests": [
+        "ドメインの境界 文字列の部分一致で別ドメインを除外しない: notexample.com",
+        "ドメインの境界 文字列の部分一致で別ドメインを除外しない: otherexample.com"
+      ]
+    },
+    {
+      "name": "ancestor-image-inversion",
+      "kind": "e2e",
+      "file": "src/engine/dom-engine.ts",
+      "change": {
+        "from": "export function startDomEngine(): void {",
+        "to": "export function startDomEngine(): void {\n  document.documentElement.style.filter = \"invert(1)\";"
+      },
+      "detected": true,
+      "failedTests": [
+        "ON/OFF はページの再読み込みと新しいタブに反映され、画像の見た目を変えない"
+      ]
+    },
+    {
+      "name": "dom-observer-disabled",
+      "kind": "e2e",
+      "file": "src/engine/dom-engine.ts",
+      "change": {
+        "from": "if (\n      mutations.some(",
+        "to": "if (\n      false && mutations.some("
+      },
+      "detected": true,
+      "failedTests": [
+        "追加要素と inline style の変更後も、最新の背景と文字が読める"
+      ]
+    },
+    {
+      "name": "cssom-polling-disabled",
+      "kind": "e2e",
+      "file": "src/engine/dom-engine.ts",
+      "change": {
+        "from": "}, 1500);",
+        "to": "}, 1500000);"
+      },
+      "detected": true,
+      "failedTests": [
+        "CSSOM に追加された背景色と hover の配色を取り込み、読みやすさを保つ"
+      ]
+    },
+    {
+      "name": "canvas-text-as-background",
+      "kind": "e2e",
+      "file": "src/engine/sheets-canvas.ts",
+      "change": {
+        "from": "readableForeground(color, palette.background)",
+        "to": "{ ...readableForeground(color, palette.background), r: 33, g: 40, b: 48 }"
+      },
+      "detected": true,
+      "failedTests": [
+        "セルの再描画では背景を暗くして文字を明るくし、対象外 Canvas は保つ"
+      ]
+    },
+    {
+      "name": "canvas-fill-not-forwarded",
+      "kind": "e2e",
+      "file": "src/engine/sheets-canvas.ts",
+      "change": {
+        "from": "Reflect.apply(fill, this, args);",
+        "to": "void fill; void args;"
+      },
+      "detected": true,
+      "failedTests": [
+        "ラップした Canvas API は描画を実行し、呼び出し直後の描画スタイルを変えない"
+      ]
+    },
+    {
+      "name": "canvas-style-not-restored",
+      "kind": "e2e",
+      "file": "src/engine/sheets-canvas.ts",
+      "change": {
+        "from": "this.fillStyle = original;",
+        "to": "void original;"
+      },
+      "detected": true,
+      "failedTests": [
+        "ラップした Canvas API は描画を実行し、呼び出し直後の描画スタイルを変えない"
+      ]
+    },
+    {
+      "name": "canvas-ignores-domain-exclusion",
+      "kind": "e2e",
+      "file": "src/engine/sheets-canvas.ts",
+      "change": {
+        "from": "===\n        \"on\"",
+        "to": "!==\n        \"never\""
+      },
+      "detected": true,
+      "failedTests": [
+        "Sheets のドメイン除外を保存するとセルと本文が元へ戻り、解除後は再び読める"
+      ]
+    },
+    {
+      "name": "settings-not-persisted",
+      "kind": "e2e",
+      "file": "src/options/options.ts",
+      "change": {
+        "from": "set({ excludedDomains: parsed.domains })",
+        "to": "set({ excludedDomains: [] })"
+      },
+      "detected": true,
+      "failedTests": [
+        "除外設定を保存・再表示でき、不正な入力は保存済みの設定を破壊しない"
+      ]
+    },
+    {
+      "name": "alpha-composition-ignored",
+      "kind": "unit",
+      "file": "src/engine/color.ts",
+      "change": {
+        "from": "r: (front.r * front.a + back.r * back.a * (1 - front.a)) / a,",
+        "to": "r: front.r,"
+      },
+      "detected": true,
+      "failedTests": [
+        "利用者に見える配色の条件 半透明の面を背景と合成するとき、既知の混色結果と不透明度を保つ"
+      ]
+    }
+  ]
+}

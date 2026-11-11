@@ -1,0 +1,7297 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Color",
+  "visible": true,
+  "elapsed": 5130,
+  "invalidations": [
+    {
+      "at": 5603.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5603.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5604,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5604.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 5991.9000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6372.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 6762.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7158.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.300000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7553.4000000059605,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7949,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 7949.0999999940395,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.699999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.90000000596,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.90000000596,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.90000000596,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.90000000596,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8376.90000000596,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.199999988079,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 8782.300000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.5,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9188.59999999404,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.699999988079,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.800000011921,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9574.90000000596,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-main-menu-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-text-input__icon cdx-text-input__start-icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "p-lang-btn-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-202",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "LABEL",
+      "id": "vector-page-tools-dropdown-label",
+      "className": "vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only ",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "INPUT",
+      "id": "searchInput",
+      "className": "cdx-text-input__input mw-searchInput",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "BUTTON",
+      "id": "",
+      "className": "cdx-button cdx-search-input__end-button",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "A",
+      "id": "",
+      "className": "cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-bottom-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-left-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-right-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    },
+    {
+      "at": 9951,
+      "type": "transitionend",
+      "property": "border-top-color",
+      "target": "SPAN",
+      "id": "",
+      "className": "cdx-radio__icon",
+      "pseudo": ""
+    }
+  ],
+  "renders": [
+    {
+      "start": 5244.4000000059605,
+      "duration": 73.59999999403954
+    },
+    {
+      "start": 5613.9000000059605,
+      "duration": 70.59999999403954
+    },
+    {
+      "start": 5995.5999999940395,
+      "duration": 75.09999999403954
+    },
+    {
+      "start": 6379.800000011921,
+      "duration": 71
+    },
+    {
+      "start": 6779.5,
+      "duration": 72.69999998807907
+    },
+    {
+      "start": 7162.9000000059605,
+      "duration": 71.90000000596046
+    },
+    {
+      "start": 7561.5,
+      "duration": 79.69999998807907
+    },
+    {
+      "start": 7960.5999999940395,
+      "duration": 80.40000000596046
+    },
+    {
+      "start": 8396.59999999404,
+      "duration": 78.90000000596046
+    },
+    {
+      "start": 8795.59999999404,
+      "duration": 71.59999999403954
+    },
+    {
+      "start": 9195.300000011921,
+      "duration": 73
+    },
+    {
+      "start": 9578,
+      "duration": 74.69999998807907
+    },
+    {
+      "start": 9962.699999988079,
+      "duration": 81.80000001192093
+    }
+  ]
+}

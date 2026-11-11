@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-08T04:15:30.768Z",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "node": "v24.22.1",
+  "headless": true,
+  "hashes": {
+    "src/engine/dom-engine.ts": "cf7503256235cfbe86d064043395c5a9be59b7a77fdf5f83dbe7f129f4e4bec5",
+    "src/engine/sheets-canvas.ts": "100890cf2dc2be3c17659e014ac2679b9fad749acf5f953b0901497395da6626",
+    "dist/content.js": "88ed0588ee36d2405b0c9151315d59a580385ac709b19076fbd5014110ccadf7",
+    "dist/sheets.js": "b6e5e6428b72e3987bb0b9f7d8602087ac5a9aec777878d1b971f708fe41289a"
+  },
+  "notes": [
+    "一時プロファイル、測定は直列。ブラウザの可視状態を確認。",
+    "TaskDuration は DevTools のメインスレッド・タスク時間。PC 全体の CPU 使用率ではない。",
+    "INP そのものではなく、同一操作列の時間・フレーム間隔・Long Task を測定。"
+  ],
+  "trials": [],
+  "browser": "158.0.8127.18",
+  "mode": "off",
+  "site": "sheets",
+  "url": "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit",
+  "baseline": {
+    "name": "baseline",
+    "elapsedMs": 5004.5,
+    "operationMs": 5001.8608749999985,
+    "mainThreadMs": 96.68599999999994,
+    "scriptMs": 19.334000000000074,
+    "layoutMs": 0,
+    "styleMs": 0,
+    "render": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "longTasks": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "frames": {
+      "count": 300,
+      "sum": 4999.8,
+      "median": 16.69999999999891,
+      "p95": 16.700000000000728,
+      "max": 16.800000000000182
+    },
+    "timerDelay": {
+      "count": 100,
+      "sum": 34.39999997615814,
+      "median": 0,
+      "p95": 1.5,
+      "max": 1.800000011920929
+    },
+    "eventDelay": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "eventDurations": {
+      "count": 0,
+      "sum": 0,
+      "median": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "heapBytes": 72966292
+  },
+  "invalidations": []
+}

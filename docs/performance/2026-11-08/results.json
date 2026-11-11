@@ -1,0 +1,2001 @@
+{
+  "date": "2026-11-08T04:06:44.317Z",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "node": "v24.22.1",
+  "headless": true,
+  "hashes": {
+    "src/engine/dom-engine.ts": "cf7503256235cfbe86d064043395c5a9be59b7a77fdf5f83dbe7f129f4e4bec5",
+    "src/engine/sheets-canvas.ts": "100890cf2dc2be3c17659e014ac2679b9fad749acf5f953b0901497395da6626",
+    "dist/content.js": "88ed0588ee36d2405b0c9151315d59a580385ac709b19076fbd5014110ccadf7",
+    "dist/sheets.js": "b6e5e6428b72e3987bb0b9f7d8602087ac5a9aec777878d1b971f708fe41289a"
+  },
+  "notes": [
+    "一時プロファイル、測定は直列。ブラウザの可視状態を確認。",
+    "TaskDuration は DevTools のメインスレッド・タスク時間。PC 全体の CPU 使用率ではない。",
+    "INP そのものではなく、同一操作列の時間・フレーム間隔・Long Task を測定。"
+  ],
+  "trials": [
+    {
+      "mode": "off",
+      "cards": 100,
+      "round": 0,
+      "url": "http://127.0.0.1:4175/?cards=100",
+      "elements": 514,
+      "visible": true,
+      "background": "rgb(255, 255, 255)",
+      "startupMs": 2223.744917,
+      "phases": [
+        {
+          "name": "idle",
+          "elapsedMs": 2202,
+          "operationMs": 2200.464916,
+          "mainThreadMs": 11.896000000000004,
+          "scriptMs": 2.039,
+          "layoutMs": 0,
+          "styleMs": 0,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 131,
+            "sum": 2183.2000000000003,
+            "median": 16.699999999999818,
+            "p95": 16.700000000000273,
+            "max": 16.799999999999727
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 34.89999997615814,
+            "median": 0,
+            "p95": 3.7000000178813934,
+            "max": 4.799999982118607
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 1962572
+        },
+        {
+          "name": "hover",
+          "elapsedMs": 2330,
+          "operationMs": 2328.4357500000006,
+          "mainThreadMs": 21.532000000000004,
+          "scriptMs": 2.2010000000000005,
+          "layoutMs": 0,
+          "styleMs": 0.8360000000000001,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 140,
+            "sum": 2333.3,
+            "median": 16.699999999999818,
+            "p95": 16.700000000000728,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 47,
+            "sum": 13.699999988079071,
+            "median": 0,
+            "p95": 1.4000000059604645,
+            "max": 1.9000000059604645
+          },
+          "eventDelay": {
+            "count": 130,
+            "sum": 1804.800000011921,
+            "median": 13.199999988079071,
+            "p95": 17.099999994039536,
+            "max": 18.599999994039536
+          },
+          "eventDurations": {
+            "count": 130,
+            "sum": 2080,
+            "median": 16,
+            "p95": 16,
+            "max": 16
+          },
+          "heapBytes": 1898080
+        },
+        {
+          "name": "counter-10hz",
+          "elapsedMs": 2202.9000000059605,
+          "operationMs": 2201.911833,
+          "mainThreadMs": 51.39099999999999,
+          "scriptMs": 3.5060000000000002,
+          "layoutMs": 2.531,
+          "styleMs": 0.456,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2200,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 25.499999910593033,
+            "median": 0.09999999403953552,
+            "p95": 1.0999999940395355,
+            "max": 16.19999998807907
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 2275568
+        },
+        {
+          "name": "typing",
+          "elapsedMs": 1684.800000011921,
+          "operationMs": 1683.5687500000004,
+          "mainThreadMs": 52.27500000000001,
+          "scriptMs": 2.444,
+          "layoutMs": 2.4399999999999995,
+          "styleMs": 0.346,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 101,
+            "sum": 1683.199999999999,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 34,
+            "sum": 29.59999993443489,
+            "median": 0.09999999403953552,
+            "p95": 4.0999999940395355,
+            "max": 4.199999988079071
+          },
+          "eventDelay": {
+            "count": 40,
+            "sum": 6.400000095367432,
+            "median": 0.10000002384185791,
+            "p95": 0.5,
+            "max": 0.5
+          },
+          "eventDurations": {
+            "count": 40,
+            "sum": 640,
+            "median": 16,
+            "p95": 16,
+            "max": 16
+          },
+          "heapBytes": 3244956
+        }
+      ]
+    },
+    {
+      "mode": "on",
+      "cards": 100,
+      "round": 0,
+      "url": "http://127.0.0.1:4175/?cards=100",
+      "elements": 514,
+      "visible": true,
+      "background": "rgb(33, 40, 48)",
+      "startupMs": 2396.970375000001,
+      "phases": [
+        {
+          "name": "idle",
+          "elapsedMs": 2202.4000000059605,
+          "operationMs": 2200.1397080000006,
+          "mainThreadMs": 15.898000000000009,
+          "scriptMs": 3.098,
+          "layoutMs": 0,
+          "styleMs": 0,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2199.9,
+            "median": 16.699999999999818,
+            "p95": 16.700000000000728,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 11.900000035762787,
+            "median": 0,
+            "p95": 1,
+            "max": 1.800000011920929
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 4047168
+        },
+        {
+          "name": "hover",
+          "elapsedMs": 2339.199999988079,
+          "operationMs": 2337.707957999999,
+          "mainThreadMs": 196.73199999999997,
+          "scriptMs": 82.77499999999999,
+          "layoutMs": 0,
+          "styleMs": 91.24499999999999,
+          "render": {
+            "count": 14,
+            "sum": 86.99999988079071,
+            "median": 6.199999988079071,
+            "p95": 7.0999999940395355,
+            "max": 7.0999999940395355
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 137,
+            "sum": 2333.2,
+            "median": 16.699999999999818,
+            "p95": 16.800000000000182,
+            "max": 33.29999999999927
+          },
+          "timerDelay": {
+            "count": 47,
+            "sum": 64.39999988675117,
+            "median": 0,
+            "p95": 9.299999982118607,
+            "max": 11
+          },
+          "eventDelay": {
+            "count": 104,
+            "sum": 1717.0000001490116,
+            "median": 14.099999994039536,
+            "p95": 34.60000002384186,
+            "max": 34.70000001788139
+          },
+          "eventDurations": {
+            "count": 104,
+            "sum": 1976,
+            "median": 16,
+            "p95": 32,
+            "max": 32
+          },
+          "heapBytes": 4057424
+        },
+        {
+          "name": "counter-10hz",
+          "elapsedMs": 2204.9000000059605,
+          "operationMs": 2203.696291,
+          "mainThreadMs": 232.02500000000003,
+          "scriptMs": 89.897,
+          "layoutMs": 2.0820000000000007,
+          "styleMs": 93.95299999999999,
+          "render": {
+            "count": 13,
+            "sum": 102.30000004172325,
+            "median": 7.300000011920929,
+            "p95": 11.400000005960464,
+            "max": 11.400000005960464
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 130,
+            "sum": 2199.8999999999996,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 33.399999999999636
+          },
+          "timerDelay": {
+            "count": 45,
+            "sum": 63.89999994635582,
+            "median": 0,
+            "p95": 11.299999982118607,
+            "max": 14.400000005960464
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 4646324
+        },
+        {
+          "name": "typing",
+          "elapsedMs": 1708.2000000178814,
+          "operationMs": 1706.2759170000027,
+          "mainThreadMs": 202.013,
+          "scriptMs": 77.31299999999999,
+          "layoutMs": 2.2459999999999996,
+          "styleMs": 71.772,
+          "render": {
+            "count": 10,
+            "sum": 86.2999999821186,
+            "median": 10.399999976158142,
+            "p95": 11.199999988079071,
+            "max": 11.199999988079071
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 102,
+            "sum": 1699.8999999999996,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 34,
+            "sum": 70.39999997615814,
+            "median": 0,
+            "p95": 15.400000005960464,
+            "max": 16.099999994039536
+          },
+          "eventDelay": {
+            "count": 63,
+            "sum": 9.499999821186066,
+            "median": 0.09999999403953552,
+            "p95": 0.5999999940395355,
+            "max": 0.9000000059604645
+          },
+          "eventDurations": {
+            "count": 63,
+            "sum": 1120,
+            "median": 16,
+            "p95": 24,
+            "max": 24
+          },
+          "heapBytes": 6231696
+        }
+      ]
+    },
+    {
+      "mode": "absent",
+      "cards": 100,
+      "round": 0,
+      "url": "http://127.0.0.1:4175/?cards=100",
+      "elements": 514,
+      "visible": true,
+      "background": "rgb(255, 255, 255)",
+      "startupMs": 2228.910416999999,
+      "phases": [
+        {
+          "name": "idle",
+          "elapsedMs": 2206.7000000178814,
+          "operationMs": 2203.379166999999,
+          "mainThreadMs": 17.071999999999996,
+          "scriptMs": 2.9250000000000007,
+          "layoutMs": 0,
+          "styleMs": 0,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2199.9,
+            "median": 16.699999999999818,
+            "p95": 16.700000000000273,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 27.19999995827675,
+            "median": 0,
+            "p95": 2.7000000178813934,
+            "max": 2.9000000059604645
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 1674352
+        },
+        {
+          "name": "hover",
+          "elapsedMs": 2323.899999976158,
+          "operationMs": 2322.1847089999974,
+          "mainThreadMs": 23.716,
+          "scriptMs": 2.378,
+          "layoutMs": 0,
+          "styleMs": 0.8529999999999999,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 139,
+            "sum": 2316.6000000000004,
+            "median": 16.699999999999818,
+            "p95": 16.800000000000182,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 47,
+            "sum": 14.700000047683716,
+            "median": 0,
+            "p95": 1.800000011920929,
+            "max": 2.0999999940395355
+          },
+          "eventDelay": {
+            "count": 111,
+            "sum": 1585.1000002026558,
+            "median": 13.700000017881393,
+            "p95": 16.700000017881393,
+            "max": 16.700000017881393
+          },
+          "eventDurations": {
+            "count": 111,
+            "sum": 1776,
+            "median": 16,
+            "p95": 16,
+            "max": 16
+          },
+          "heapBytes": 1650172
+        },
+        {
+          "name": "counter-10hz",
+          "elapsedMs": 2227,
+          "operationMs": 2213.902249999999,
+          "mainThreadMs": 43.272000000000006,
+          "scriptMs": 3.122,
+          "layoutMs": 2.087,
+          "styleMs": 0.42000000000000004,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 133,
+            "sum": 2216.500000000001,
+            "median": 16.69999999999891,
+            "p95": 16.799999999999272,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 22.900000005960464,
+            "median": 0,
+            "p95": 1.699999988079071,
+            "max": 3
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 1926856
+        },
+        {
+          "name": "typing",
+          "elapsedMs": 1716.300000011921,
+          "operationMs": 1713.6662080000024,
+          "mainThreadMs": 56.68800000000002,
+          "scriptMs": 2.4170000000000007,
+          "layoutMs": 1.8269999999999988,
+          "styleMs": 0.3460000000000002,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 103,
+            "sum": 1716.7000000000007,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 34,
+            "sum": 23.099999994039536,
+            "median": 0,
+            "p95": 3.4000000059604645,
+            "max": 4.300000011920929
+          },
+          "eventDelay": {
+            "count": 42,
+            "sum": 6.599999964237213,
+            "median": 0.09999999403953552,
+            "p95": 0.800000011920929,
+            "max": 0.800000011920929
+          },
+          "eventDurations": {
+            "count": 42,
+            "sum": 672,
+            "median": 16,
+            "p95": 16,
+            "max": 16
+          },
+          "heapBytes": 2983656
+        }
+      ]
+    },
+    {
+      "mode": "on",
+      "cards": 100,
+      "round": 1,
+      "url": "http://127.0.0.1:4175/?cards=100",
+      "elements": 514,
+      "visible": true,
+      "background": "rgb(33, 40, 48)",
+      "startupMs": 2392.193500000001,
+      "phases": [
+        {
+          "name": "idle",
+          "elapsedMs": 2203.699999988079,
+          "operationMs": 2201.4451249999984,
+          "mainThreadMs": 16.4,
+          "scriptMs": 3.6660000000000026,
+          "layoutMs": 0,
+          "styleMs": 0,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2199.9000000000005,
+            "median": 16.699999999999818,
+            "p95": 16.700000000000728,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 12.900000035762787,
+            "median": 0,
+            "p95": 1.5999999940395355,
+            "max": 1.7999999821186066
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 4001784
+        },
+        {
+          "name": "hover",
+          "elapsedMs": 2304.9000000059605,
+          "operationMs": 2303.2402500000026,
+          "mainThreadMs": 236.107,
+          "scriptMs": 97.387,
+          "layoutMs": 0,
+          "styleMs": 113.35400000000001,
+          "render": {
+            "count": 14,
+            "sum": 103.2000000178814,
+            "median": 7.4000000059604645,
+            "p95": 8.900000005960464,
+            "max": 8.900000005960464
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 138,
+            "sum": 2299.9000000000005,
+            "median": 16.699999999999818,
+            "p95": 16.799999999999272,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 47,
+            "sum": 70.60000005364418,
+            "median": 0,
+            "p95": 12.599999994039536,
+            "max": 15
+          },
+          "eventDelay": {
+            "count": 85,
+            "sum": 1159.8999998867512,
+            "median": 13,
+            "p95": 20.799999982118607,
+            "max": 20.899999976158142
+          },
+          "eventDurations": {
+            "count": 85,
+            "sum": 1640,
+            "median": 16,
+            "p95": 32,
+            "max": 32
+          },
+          "heapBytes": 4023360
+        },
+        {
+          "name": "counter-10hz",
+          "elapsedMs": 2204,
+          "operationMs": 2202.2627500000017,
+          "mainThreadMs": 227.67299999999994,
+          "scriptMs": 81.61099999999999,
+          "layoutMs": 1.8609999999999998,
+          "styleMs": 94.83900000000001,
+          "render": {
+            "count": 13,
+            "sum": 84.40000003576279,
+            "median": 6.4000000059604645,
+            "p95": 7.5,
+            "max": 7.5
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2200,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 33.900000005960464,
+            "median": 0,
+            "p95": 1.5999999940395355,
+            "max": 10.900000005960464
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 7098152
+        },
+        {
+          "name": "typing",
+          "elapsedMs": 1711.800000011921,
+          "operationMs": 1710.3607919999995,
+          "mainThreadMs": 185.37800000000004,
+          "scriptMs": 63.28299999999998,
+          "layoutMs": 1.7049999999999998,
+          "styleMs": 73.928,
+          "render": {
+            "count": 10,
+            "sum": 66.19999998807907,
+            "median": 6.699999988079071,
+            "p95": 8.200000017881393,
+            "max": 8.200000017881393
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 103,
+            "sum": 1716.6000000000004,
+            "median": 16.69999999999891,
+            "p95": 16.80000000000109,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 34,
+            "sum": 60.49999997019768,
+            "median": 0.20000001788139343,
+            "p95": 13,
+            "max": 14.099999994039536
+          },
+          "eventDelay": {
+            "count": 50,
+            "sum": 20.799999833106995,
+            "median": 0.09999999403953552,
+            "p95": 0.5999999940395355,
+            "max": 13.299999982118607
+          },
+          "eventDurations": {
+            "count": 50,
+            "sum": 896,
+            "median": 16,
+            "p95": 24,
+            "max": 24
+          },
+          "heapBytes": 5925828
+        }
+      ]
+    },
+    {
+      "mode": "absent",
+      "cards": 100,
+      "round": 1,
+      "url": "http://127.0.0.1:4175/?cards=100",
+      "elements": 514,
+      "visible": true,
+      "background": "rgb(255, 255, 255)",
+      "startupMs": 2225.091959000005,
+      "phases": [
+        {
+          "name": "idle",
+          "elapsedMs": 2204.7000000178814,
+          "operationMs": 2202.149375000001,
+          "mainThreadMs": 15.468999999999996,
+          "scriptMs": 2.9830000000000005,
+          "layoutMs": 0,
+          "styleMs": 0,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2199.9,
+            "median": 16.699999999999818,
+            "p95": 16.700000000000273,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 9.099999964237213,
+            "median": 0,
+            "p95": 1.2999999821186066,
+            "max": 1.5
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 1674472
+        },
+        {
+          "name": "hover",
+          "elapsedMs": 2337.5,
+          "operationMs": 2335.017292000004,
+          "mainThreadMs": 35.181000000000004,
+          "scriptMs": 3.3729999999999993,
+          "layoutMs": 0,
+          "styleMs": 1.0799999999999998,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 140,
+            "sum": 2333.3,
+            "median": 16.699999999999818,
+            "p95": 16.800000000000182,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 47,
+            "sum": 13.299999982118607,
+            "median": 0,
+            "p95": 1.300000011920929,
+            "max": 1.9000000059604645
+          },
+          "eventDelay": {
+            "count": 130,
+            "sum": 1855.8999997079372,
+            "median": 14.200000017881393,
+            "p95": 17.900000005960464,
+            "max": 18.19999998807907
+          },
+          "eventDurations": {
+            "count": 130,
+            "sum": 2136,
+            "median": 16,
+            "p95": 24,
+            "max": 24
+          },
+          "heapBytes": 1678972
+        },
+        {
+          "name": "counter-10hz",
+          "elapsedMs": 2205.5999999940395,
+          "operationMs": 2203.830541999996,
+          "mainThreadMs": 63.91,
+          "scriptMs": 4.379000000000001,
+          "layoutMs": 2.6449999999999996,
+          "styleMs": 0.46900000000000025,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2199.999999999999,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 14.199999988079071,
+            "median": 0,
+            "p95": 1.300000011920929,
+            "max": 1.7999999821186066
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 2026508
+        },
+        {
+          "name": "typing",
+          "elapsedMs": 1694.800000011921,
+          "operationMs": 1692.6922910000067,
+          "mainThreadMs": 63.644000000000005,
+          "scriptMs": 3.1139999999999985,
+          "layoutMs": 2.8660000000000005,
+          "styleMs": 0.38199999999999995,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 102,
+            "sum": 1700,
+            "median": 16.69999999999891,
+            "p95": 16.799999999999272,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 34,
+            "sum": 19.300000101327896,
+            "median": 0,
+            "p95": 1.2999999821186066,
+            "max": 12.600000023841858
+          },
+          "eventDelay": {
+            "count": 51,
+            "sum": 6.999999940395355,
+            "median": 0.09999999403953552,
+            "p95": 0.5999999940395355,
+            "max": 0.5999999940395355
+          },
+          "eventDurations": {
+            "count": 51,
+            "sum": 824,
+            "median": 16,
+            "p95": 16,
+            "max": 24
+          },
+          "heapBytes": 2986372
+        }
+      ]
+    },
+    {
+      "mode": "off",
+      "cards": 100,
+      "round": 1,
+      "url": "http://127.0.0.1:4175/?cards=100",
+      "elements": 514,
+      "visible": true,
+      "background": "rgb(255, 255, 255)",
+      "startupMs": 2221.260792000008,
+      "phases": [
+        {
+          "name": "idle",
+          "elapsedMs": 2205.7000000178814,
+          "operationMs": 2200.803334000011,
+          "mainThreadMs": 21.617000000000004,
+          "scriptMs": 3.712000000000001,
+          "layoutMs": 0,
+          "styleMs": 0,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2200.0000000000005,
+            "median": 16.699999999999818,
+            "p95": 16.799999999999727,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 18.700000017881393,
+            "median": 0,
+            "p95": 2.0999999940395355,
+            "max": 3.0999999940395355
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 1962584
+        },
+        {
+          "name": "hover",
+          "elapsedMs": 2325.100000023842,
+          "operationMs": 2322.0347499999916,
+          "mainThreadMs": 42.61999999999999,
+          "scriptMs": 4.103000000000001,
+          "layoutMs": 0,
+          "styleMs": 1.1039999999999999,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 139,
+            "sum": 2316.6000000000004,
+            "median": 16.699999999999818,
+            "p95": 16.800000000000182,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 47,
+            "sum": 11.400000005960464,
+            "median": 0,
+            "p95": 1.0999999940395355,
+            "max": 1.5
+          },
+          "eventDelay": {
+            "count": 130,
+            "sum": 1713.7000001370907,
+            "median": 13.599999994039536,
+            "p95": 16.400000005960464,
+            "max": 16.5
+          },
+          "eventDurations": {
+            "count": 130,
+            "sum": 2080,
+            "median": 16,
+            "p95": 16,
+            "max": 16
+          },
+          "heapBytes": 1911460
+        },
+        {
+          "name": "counter-10hz",
+          "elapsedMs": 2206.9000000059605,
+          "operationMs": 2204.1739589999925,
+          "mainThreadMs": 52.154,
+          "scriptMs": 3.774999999999999,
+          "layoutMs": 2.5389999999999997,
+          "styleMs": 0.45899999999999996,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2200,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 28.39999994635582,
+            "median": 0,
+            "p95": 2.399999976158142,
+            "max": 12.400000005960464
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 2299608
+        },
+        {
+          "name": "typing",
+          "elapsedMs": 1698.9000000059605,
+          "operationMs": 1695.6426659999997,
+          "mainThreadMs": 64.501,
+          "scriptMs": 3.002000000000001,
+          "layoutMs": 3.052000000000001,
+          "styleMs": 0.3979999999999999,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 101,
+            "sum": 1683.2000000000007,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 34,
+            "sum": 22.000000029802322,
+            "median": 0,
+            "p95": 2.7000000178813934,
+            "max": 3.0999999940395355
+          },
+          "eventDelay": {
+            "count": 56,
+            "sum": 8.600000202655792,
+            "median": 0.19999998807907104,
+            "p95": 0.5999999940395355,
+            "max": 0.5999999940395355
+          },
+          "eventDurations": {
+            "count": 56,
+            "sum": 976,
+            "median": 16,
+            "p95": 24,
+            "max": 24
+          },
+          "heapBytes": 3228608
+        }
+      ]
+    },
+    {
+      "mode": "absent",
+      "cards": 100,
+      "round": 2,
+      "url": "http://127.0.0.1:4175/?cards=100",
+      "elements": 514,
+      "visible": true,
+      "background": "rgb(255, 255, 255)",
+      "startupMs": 2226.0385420000093,
+      "phases": [
+        {
+          "name": "idle",
+          "elapsedMs": 2202.600000023842,
+          "operationMs": 2200.571750000003,
+          "mainThreadMs": 23.337000000000003,
+          "scriptMs": 4.308000000000001,
+          "layoutMs": 0,
+          "styleMs": 0,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2199.9,
+            "median": 16.699999999999818,
+            "p95": 16.799999999999272,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 26.5,
+            "median": 0,
+            "p95": 3.0999999940395355,
+            "max": 4.5
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 1674668
+        },
+        {
+          "name": "hover",
+          "elapsedMs": 2327.5999999940395,
+          "operationMs": 2326.222416999997,
+          "mainThreadMs": 31.087000000000003,
+          "scriptMs": 3.0550000000000006,
+          "layoutMs": 0,
+          "styleMs": 0.9750000000000001,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 140,
+            "sum": 2333.3,
+            "median": 16.699999999999818,
+            "p95": 16.700000000000728,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 47,
+            "sum": 35.199999928474426,
+            "median": 0.09999999403953552,
+            "p95": 3.600000023841858,
+            "max": 4
+          },
+          "eventDelay": {
+            "count": 123,
+            "sum": 1704.399999588728,
+            "median": 13.899999976158142,
+            "p95": 17.5,
+            "max": 17.69999998807907
+          },
+          "eventDurations": {
+            "count": 123,
+            "sum": 1968,
+            "median": 16,
+            "p95": 16,
+            "max": 16
+          },
+          "heapBytes": 1650816
+        },
+        {
+          "name": "counter-10hz",
+          "elapsedMs": 2208.300000011921,
+          "operationMs": 2204.8227919999918,
+          "mainThreadMs": 63.473,
+          "scriptMs": 4.419999999999998,
+          "layoutMs": 2.923,
+          "styleMs": 0.629,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2199.999999999999,
+            "median": 16.69999999999891,
+            "p95": 16.799999999999272,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 37.80000001192093,
+            "median": 0,
+            "p95": 3,
+            "max": 14.400000005960464
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 1980876
+        },
+        {
+          "name": "typing",
+          "elapsedMs": 1700,
+          "operationMs": 1696.6664579999924,
+          "mainThreadMs": 70.08700000000002,
+          "scriptMs": 3.3640000000000025,
+          "layoutMs": 2.9109999999999987,
+          "styleMs": 0.3979999999999999,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 101,
+            "sum": 1683.300000000001,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 34,
+            "sum": 36.59999993443489,
+            "median": 0.09999999403953552,
+            "p95": 4.800000011920929,
+            "max": 5.799999982118607
+          },
+          "eventDelay": {
+            "count": 49,
+            "sum": 10.000000089406967,
+            "median": 0.09999999403953552,
+            "p95": 0.7000000178813934,
+            "max": 1.2000000178813934
+          },
+          "eventDurations": {
+            "count": 49,
+            "sum": 784,
+            "median": 16,
+            "p95": 16,
+            "max": 16
+          },
+          "heapBytes": 2982704
+        }
+      ]
+    },
+    {
+      "mode": "off",
+      "cards": 100,
+      "round": 2,
+      "url": "http://127.0.0.1:4175/?cards=100",
+      "elements": 514,
+      "visible": true,
+      "background": "rgb(255, 255, 255)",
+      "startupMs": 2222.9463340000075,
+      "phases": [
+        {
+          "name": "idle",
+          "elapsedMs": 2204.600000023842,
+          "operationMs": 2202.093000000008,
+          "mainThreadMs": 22.900000000000002,
+          "scriptMs": 3.922000000000001,
+          "layoutMs": 0,
+          "styleMs": 0,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2199.9,
+            "median": 16.699999999999818,
+            "p95": 16.799999999999727,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 19.400000035762787,
+            "median": 0.10000002384185791,
+            "p95": 1.300000011920929,
+            "max": 2.100000023841858
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 1968944
+        },
+        {
+          "name": "hover",
+          "elapsedMs": 2333.2000000178814,
+          "operationMs": 2330.001375000007,
+          "mainThreadMs": 38.05099999999999,
+          "scriptMs": 3.6900000000000004,
+          "layoutMs": 0,
+          "styleMs": 1.049,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 140,
+            "sum": 2333.1000000000004,
+            "median": 16.699999999999818,
+            "p95": 16.800000000000182,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 47,
+            "sum": 31.69999995827675,
+            "median": 0,
+            "p95": 2.399999976158142,
+            "max": 2.5
+          },
+          "eventDelay": {
+            "count": 124,
+            "sum": 1720.2000003159046,
+            "median": 13.800000011920929,
+            "p95": 15.900000005960464,
+            "max": 17.599999994039536
+          },
+          "eventDurations": {
+            "count": 124,
+            "sum": 1984,
+            "median": 16,
+            "p95": 16,
+            "max": 16
+          },
+          "heapBytes": 1898132
+        },
+        {
+          "name": "counter-10hz",
+          "elapsedMs": 2207.4000000059605,
+          "operationMs": 2204.372583999997,
+          "mainThreadMs": 56.783999999999985,
+          "scriptMs": 3.8389999999999986,
+          "layoutMs": 2.7469999999999994,
+          "styleMs": 0.46599999999999986,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2200,
+            "median": 16.699999999999818,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 22.799999982118607,
+            "median": 0.09999999403953552,
+            "p95": 2.0999999940395355,
+            "max": 2.199999988079071
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 2277000
+        },
+        {
+          "name": "typing",
+          "elapsedMs": 1696.800000011921,
+          "operationMs": 1693.961666999996,
+          "mainThreadMs": 66.95700000000002,
+          "scriptMs": 3.1350000000000025,
+          "layoutMs": 3.718000000000001,
+          "styleMs": 0.39099999999999985,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 101,
+            "sum": 1683.199999999999,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.799999999999272
+          },
+          "timerDelay": {
+            "count": 34,
+            "sum": 45.400000005960464,
+            "median": 0.19999998807907104,
+            "p95": 10.699999988079071,
+            "max": 11.400000005960464
+          },
+          "eventDelay": {
+            "count": 55,
+            "sum": 7.799999892711639,
+            "median": 0.09999999403953552,
+            "p95": 0.5,
+            "max": 0.6000000238418579
+          },
+          "eventDurations": {
+            "count": 55,
+            "sum": 888,
+            "median": 16,
+            "p95": 16,
+            "max": 24
+          },
+          "heapBytes": 3247268
+        }
+      ]
+    },
+    {
+      "mode": "on",
+      "cards": 100,
+      "round": 2,
+      "url": "http://127.0.0.1:4175/?cards=100",
+      "elements": 514,
+      "visible": true,
+      "background": "rgb(33, 40, 48)",
+      "startupMs": 2390.290249999991,
+      "phases": [
+        {
+          "name": "idle",
+          "elapsedMs": 2205.199999988079,
+          "operationMs": 2202.1534580000007,
+          "mainThreadMs": 19.277,
+          "scriptMs": 3.568999999999999,
+          "layoutMs": 0,
+          "styleMs": 0,
+          "render": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 133,
+            "sum": 2216.5,
+            "median": 16.699999999999818,
+            "p95": 16.799999999999727,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 37.60000005364418,
+            "median": 0.09999999403953552,
+            "p95": 3.2000000178813934,
+            "max": 4.199999988079071
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 4049924
+        },
+        {
+          "name": "hover",
+          "elapsedMs": 2280.600000023842,
+          "operationMs": 2278.418166999996,
+          "mainThreadMs": 252.428,
+          "scriptMs": 116.38500000000002,
+          "layoutMs": 0,
+          "styleMs": 108.871,
+          "render": {
+            "count": 14,
+            "sum": 133.3999999165535,
+            "median": 10.299999982118607,
+            "p95": 12.099999994039536,
+            "max": 12.099999994039536
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 137,
+            "sum": 2283.2000000000007,
+            "median": 16.699999999999818,
+            "p95": 16.799999999999272,
+            "max": 16.800000000000182
+          },
+          "timerDelay": {
+            "count": 46,
+            "sum": 51.59999996423721,
+            "median": 0,
+            "p95": 5.0999999940395355,
+            "max": 10
+          },
+          "eventDelay": {
+            "count": 96,
+            "sum": 1320.4999996721745,
+            "median": 13.5,
+            "p95": 16.69999998807907,
+            "max": 16.799999982118607
+          },
+          "eventDurations": {
+            "count": 96,
+            "sum": 1648,
+            "median": 16,
+            "p95": 32,
+            "max": 32
+          },
+          "heapBytes": 4009988
+        },
+        {
+          "name": "counter-10hz",
+          "elapsedMs": 2206.2999999821186,
+          "operationMs": 2203.435792000004,
+          "mainThreadMs": 272.47700000000003,
+          "scriptMs": 119.50399999999998,
+          "layoutMs": 2.1539999999999995,
+          "styleMs": 101.023,
+          "render": {
+            "count": 13,
+            "sum": 137.2999999821186,
+            "median": 10.900000005960464,
+            "p95": 11.5,
+            "max": 11.5
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 132,
+            "sum": 2199.9000000000005,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 44,
+            "sum": 50.1000000834465,
+            "median": 0,
+            "p95": 6.300000011920929,
+            "max": 8.200000017881393
+          },
+          "eventDelay": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "eventDurations": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "heapBytes": 7065696
+        },
+        {
+          "name": "typing",
+          "elapsedMs": 1710.2999999821186,
+          "operationMs": 1707.3655419999996,
+          "mainThreadMs": 204.48,
+          "scriptMs": 74.17000000000002,
+          "layoutMs": 2.035,
+          "styleMs": 78.06500000000003,
+          "render": {
+            "count": 10,
+            "sum": 79.09999999403954,
+            "median": 7,
+            "p95": 11.5,
+            "max": 11.5
+          },
+          "longTasks": {
+            "count": 0,
+            "sum": 0,
+            "median": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "frames": {
+            "count": 103,
+            "sum": 1716.5,
+            "median": 16.69999999999891,
+            "p95": 16.700000000000728,
+            "max": 16.80000000000109
+          },
+          "timerDelay": {
+            "count": 34,
+            "sum": 83.30000004172325,
+            "median": 0,
+            "p95": 9.5,
+            "max": 23
+          },
+          "eventDelay": {
+            "count": 57,
+            "sum": 24.200000017881393,
+            "median": 0.09999999403953552,
+            "p95": 0.800000011920929,
+            "max": 14.900000005960464
+          },
+          "eventDurations": {
+            "count": 57,
+            "sum": 1024,
+            "median": 16,
+            "p95": 24,
+            "max": 24
+          },
+          "heapBytes": 7549788
+        }
+      ]
+    }
+  ],
+  "browser": "158.0.8127.18"
+}
