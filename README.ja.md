@@ -68,8 +68,20 @@ Sheets のセル内部の色変換を無効にします。解除する場合は�
 
 ## インストール
 
-Chrome 119 以上が対象です。ソースからビルドした `dist/` を、パッケージ化されていない
-拡張機能として読み込みます。手順は [DEVELOPMENT.md](./DEVELOPMENT.md)（英語）を参照してください。
+Chrome 119 以上が対象です。Node.js と pnpm のバージョンは
+[package.json](./package.json) に指定しています。
+
+```sh
+pnpm install --frozen-lockfile
+pnpm build
+```
+
+1. `chrome://extensions` を開き、『デベロッパー モード』を有効にします。
+2. 『パッケージ化されていない拡張機能を読み込む』で、このリポジトリの `dist/` を選択します。
+3. ダーク表示にするページを再読み込みします。
+
+再ビルド後は拡張機能と対象ページを再読み込みしてください。開発・テストのコマンドは
+[package.json](./package.json) を参照してください。
 
 ## 制約
 
@@ -94,5 +106,4 @@ HTTP / HTTPS サイトを対象に動作を試みますが、あらゆる描画�
 全体の ON/OFF と除外ドメインだけです。
 
 拡張の権限は `storage` のみです。HTTP / HTTPS ページへのスクリプト実行は
-Manifest の `content_scripts` に宣言しています。実装の詳細は
-[権限とデータ](./DEVELOPMENT.md#permissions-and-data)（英語）を参照してください。
+Manifest の `content_scripts` に宣言しています。
