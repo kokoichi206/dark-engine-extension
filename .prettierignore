@@ -3,5 +3,3 @@ dist/
 node_modules/
 test-results/
 playwright-report/
-docs/verification/results.json
-docs/performance/**/*.json

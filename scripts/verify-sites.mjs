@@ -40,7 +40,7 @@ async function canvasSignature(canvas) {
 }
 
 const extensionPath = resolve("dist");
-const output = "docs/verification";
+const output = "test-results/sites";
 await mkdir(output, { recursive: true });
 const context = await chromium.launchPersistentContext("", {
   channel: "chromium",
