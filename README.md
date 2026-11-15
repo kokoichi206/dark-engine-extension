@@ -92,6 +92,10 @@ can be converted completely.
 - Palette selection, per-site palettes, brightness controls, system-theme sync,
   and allowlists are not provided
 
+## License
+
+[MIT](./LICENSE)
+
 ## Privacy
 
 Color analysis runs locally in the browser. The extension makes no network
