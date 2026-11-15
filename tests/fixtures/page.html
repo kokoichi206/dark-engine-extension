@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dark Engine 検証ページ</title>
+    <link rel="stylesheet" href="http://127.0.0.1:4174/cross-origin.css" />
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      body {
+        margin: 0;
+        font: 16px/1.6 system-ui;
+        background: white;
+        color: #111;
+      }
+      main {
+        max-width: 960px;
+        padding: 40px;
+        margin: auto;
+      }
+      h1 {
+        margin-top: 0;
+      }
+      a {
+        color: #0645ad;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+      }
+      .card {
+        padding: 20px;
+        border: 1px solid #ddd;
+        background: #f5f5f5;
+        border-radius: 8px;
+      }
+      .card::before {
+        content: "CSS の疑似要素";
+        display: block;
+        color: #333;
+        background: #eee;
+        padding: 6px;
+      }
+      input,
+      button {
+        font: inherit;
+        background: #fff;
+        color: #111;
+        border: 1px solid #ccc;
+        padding: 8px 12px;
+      }
+      input::placeholder {
+        color: #555;
+      }
+      button:hover {
+        background: #ddeeff;
+        color: #002255;
+      }
+      .gradient {
+        background: linear-gradient(90deg, #fff, rgb(200, 220, 255));
+      }
+      .mixed-background {
+        background-image:
+          url("/image.svg#fff"),
+          linear-gradient(90deg, #fff, rgb(200, 220, 255));
+        width: 180px;
+        height: 50px;
+      }
+      .red {
+        background: #ffe0dd;
+        color: #a00000;
+      }
+      .already-dark {
+        background: #161b22;
+        color: #c9d1d9;
+      }
+      .cross-origin {
+        min-height: 50px;
+        padding: 10px;
+      }
+      canvas {
+        border: 1px solid #aaa;
+      }
+      svg {
+        width: 180px;
+        height: 55px;
+      }
+      iframe {
+        width: 100%;
+        height: 80px;
+        border: 1px solid #ccc;
+      }
+      #dynamic {
+        margin-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Dark Engine</h1>
+      <p>
+        白い面、文字、リンク、動的な色を変換します。<a href="#cards"
+          >リンクの読みやすさ</a
+        >
+      </p>
+      <div class="cards" id="cards">
+        <section class="card">
+          <h2>フォーム</h2>
+          <input placeholder="プレースホルダー" aria-label="入力" /><button
+            id="update"
+          >
+            要素を追加
+          </button>
+          <div id="dynamic"></div>
+        </section>
+        <section class="card gradient">
+          <h2>グラデーション</h2>
+          <p>明るい色から青色へ</p>
+        </section>
+        <section class="card red">
+          <h2>色付きの面</h2>
+          <p>赤い色の違いを保つ</p>
+        </section>
+        <section class="card already-dark">
+          <h2>既存のダーク表示</h2>
+          <p>暗い面を保つ</p>
+        </section>
+      </div>
+      <div class="mixed-background" aria-label="背景画像とグラデーション"></div>
+      <p class="cross-origin">別オリジンの CSS</p>
+      <div id="shadow"></div>
+      <svg viewBox="0 0 180 55">
+        <rect width="180" height="55" fill="white" />
+        <text x="10" y="34" fill="black">SVG テキスト</text>
+      </svg>
+      <img
+        id="photo"
+        width="60"
+        height="40"
+        alt="画像の配色を保持"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='40'%3E%3Cpath fill='%23ff9900' d='M0 0h60v40H0z'/%3E%3C/svg%3E"
+      />
+      <button id="draw-cells">セルを再描画</button>
+      <div class="grid-container">
+        <canvas id="cells" width="600" height="100"></canvas>
+      </div>
+      <canvas id="art" width="80" height="40"></canvas>
+      <iframe src="/frame.html" title="フレームの検証"></iframe>
+      <iframe
+        srcdoc="<body style='background:white;color:black'>about:srcdoc のフレーム</body>"
+        title="srcdoc の検証"
+      ></iframe>
+      <script src="/fixture.js"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dark Engine</title>
+    <link rel="stylesheet" href="popup.css" />
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <span class="mark" aria-hidden="true"></span>
+      <div>
+        <h1>Dark Engine</h1>
+        <p>いつものページを、落ち着いた色に。</p>
+      </div>
+    </header>
+    <main>
+      <label class="setting"
+        ><span
+          ><strong>ダーク表示</strong
+          ><small>除外ドメイン以外に適用</small></span
+        ><input
+          id="enabled"
+          type="checkbox"
+          role="switch"
+          aria-label="ダーク表示"
+          disabled
+      /></label>
+      <section class="domain-setting" aria-label="現在のドメイン">
+        <strong id="current-domain">ドメインを確認中…</strong>
+        <p id="domain-description">
+          このドメインと、そのサブドメインを除外します。
+        </p>
+        <button id="exclude-domain" type="button" disabled>
+          このドメイン配下で無効にする
+        </button>
+        <button id="open-options" class="text-button" type="button">
+          除外ドメインの設定を開く
+        </button>
+      </section>
+      <p class="note">
+        設定は次の読み込みから反映されます。Google Sheets
+        も、セルの描画から変換します。
+      </p>
+      <button id="reload" type="button">このページを再読み込み</button>
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+    <footer>色の変換はブラウザ内で処理します。</footer>
+  </body>
+</html>

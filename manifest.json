@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Dark Engine",
+  "version": "0.1.0",
+  "minimum_chrome_version": "119",
+  "description": "ウェブページと Google Sheets の色を解析し、読みやすいダーク配色へ変換します。",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Dark Engine"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/spreadsheets/*"],
+      "js": ["sheets.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true
+    },
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "match_origin_as_fallback": true
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}

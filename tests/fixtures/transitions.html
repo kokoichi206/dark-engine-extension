@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>トランジションと個別の配色変更</title>
+    <style>
+      body {
+        background: white;
+        color: #111;
+        font: 16px/1.6 system-ui;
+      }
+      section,
+      #shadow-root {
+        display: block;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="light-root"></section>
+    <div id="shadow-root"></div>
+    <template id="surface-template">
+      <style>
+        .surface {
+          background: #fff;
+          color: #111;
+          border: 1px solid #ccc;
+          padding: 12px;
+        }
+        #feedback {
+          transition:
+            color 80ms linear,
+            background-color 80ms linear,
+            opacity 250ms linear;
+        }
+        #feedback.faded {
+          opacity: 0.5;
+        }
+        .pair::before {
+          content: "補足";
+          display: block;
+          background: #ffd0c0;
+          color: #400000;
+        }
+        #second::before {
+          background: #c0d0ff;
+          color: #000040;
+        }
+        .pair.warm {
+          background: #ffd0c0;
+          color: #400000;
+        }
+      </style>
+      <div class="surface" id="feedback">トランジションのある面</div>
+      <button id="fade">透明度を変える</button>
+      <output id="completion">操作待ち</output>
+      <div
+        id="protected"
+        style="
+          background: #18202b !important;
+          color: #c9d1d9 !important;
+          transition: color 350ms linear;
+        "
+      >
+        既存の色の遷移
+      </div>
+      <button id="protected-color">元の文字色を変える</button>
+      <output id="protected-completion">操作待ち</output>
+      <output id="unrelated-update">0</output>
+      <button id="interrupt">色の遷移を中断して面を追加</button>
+      <div class="surface pair" id="first">先頭の面</div>
+      <div class="surface pair" id="second">別の補足色の面</div>
+      <div class="surface pair" id="third">先頭と同じ配色の面</div>
+      <button id="recolor">先頭の配色を変える</button>
+    </template>
+    <script src="/transitions.js"></script>
+  </body>
+</html>
