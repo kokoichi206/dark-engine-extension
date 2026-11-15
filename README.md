@@ -69,8 +69,20 @@ separately if it should also be excluded. Origin-inheriting `about:srcdoc` and
 
 ## Install
 
-Requires Chrome 119 or later. Build from source and load `dist/` as an unpacked
-extension; the steps are in [DEVELOPMENT.md](./DEVELOPMENT.md).
+Requires Chrome 119 or later. Node.js and pnpm versions are specified in
+[package.json](./package.json).
+
+```sh
+pnpm install --frozen-lockfile
+pnpm build
+```
+
+1. Open `chrome://extensions` and enable **Developer mode**.
+2. Choose **Load unpacked** and select this repository's `dist/` directory.
+3. Reload the pages you want to theme.
+
+After rebuilding, reload the extension and the affected pages. Development and
+test commands are listed in [package.json](./package.json).
 
 ## Limitations
 
@@ -100,6 +112,4 @@ history. It saves only the global on/off setting and excluded domains in
 `chrome.storage.local`.
 
 The sole extension permission is `storage`. Scripts run on HTTP and HTTPS pages
-through the manifest's content-script declarations. See
-[Permissions and data](./DEVELOPMENT.md#permissions-and-data) for the implementation
-details.
+through the manifest's content-script declarations.
